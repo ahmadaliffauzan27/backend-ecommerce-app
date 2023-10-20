@@ -30,7 +30,7 @@ module.exports = createCoreController("api::order.order", ({ strapi }) => ({
     });
 
     console.log("response", response.data);
-
+    // return
     return JSON.stringify(response.data);
   },
 }));
